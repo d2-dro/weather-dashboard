@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling for header bar */
+
+header {
+    display: flex;
+    background-image: linear-gradient(to right, violet, blue);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
