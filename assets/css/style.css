@@ -14,3 +14,28 @@ header {
     text-align: center;
 }
 
+
+.searchButton {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: blue;
+
+}
+
+.searchButton:hover {
+    background-color: violet;
+    border: violet;
+}
+
+#search-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#weather-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

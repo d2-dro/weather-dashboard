@@ -16,15 +16,36 @@
         </header>
 
         <!-- main section of page -->
-        <main>
+        <main id="main">
 
             <!-- left then right sections -->
 
-            <section id="left">
-
+            <section id="left search-area" class="col-10">
+                <form class="form">
+                    <label for="city-search">Search for a City:</label>
+                    <input type="text" placeholder="Topeka" name="city" id="city" class="city-input"/>
+                    <button class="searchButton" type="submit" class="fa fa-search">Search</button>
+                </form>
+                <ul class="past-searches"></ul>
             </section>
 
-            <section id="right">
+            <section id="right weather-area" class="col-10">
+                <div class="daysWeather">
+                    <div class="city temp wind humidity uvIndex">
+
+                    </div>
+                </div>
+                <div class="forecast-section">
+                    <h2 class="card-header searchedName currentDate"></h2>
+                </div>
+                <div class="forecast">
+                    <p>5-Day Forecast:</p>
+                    <div id="day-1" class="card"></div>
+                    <div id="day-2" class="card"></div>
+                    <div id="day-3" class="card"></div>
+                    <div id="day-4" class="card"></div>
+                    <div id="day-5" class="card"></div>
+                </div>
 
             </section>
         </main>
@@ -41,3 +62,4 @@
     </body>
 
 </html>
+
